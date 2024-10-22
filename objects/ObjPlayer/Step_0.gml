@@ -1,7 +1,8 @@
 /// @description Prueba Paso
 // Puede escribir su código en este editor
 
-
+#region //Variable
+animName= string(sprite_get_name(sprite_index));
 
 upKey =		 keyboard_check(vk_up);
 downKey =	 keyboard_check(vk_down);
@@ -15,8 +16,8 @@ yhbxDis = 4;//5
  xSpeed = (rightKey - leftKey) * movSpeed;
  ySpeed = (downKey - upKey ) * movSpeed;
  
+#endregion
 
- //Colision
  #region //sprites pa los lados
  if (keyboard_check(vk_right)) {
     if (place_meeting(x + xhbxDis, y, objWall)) {
@@ -43,25 +44,13 @@ if (keyboard_check(vk_up)) {
 }
 
 #endregion
- 
-/*
- if (place_meeting(x, xSpeed, objWall)){
-	 xSpeed=0;
- } 
- 
-  if (place_meeting(y, ySpeed, objWall)){
-	 ySpeed=0;
- }
- */
- 
- //incrementar
+
  if (ableToMove){
  x+= xSpeed;
  y+= ySpeed;
  }
  
- //Movement
- #region /variables movment
+ #region //variables movment
  sprStand = sprStandby;
 
  sprUp = sprWalkingUp;
@@ -73,7 +62,7 @@ if (keyboard_check(vk_up)) {
  
  #endregion
  
- #region
+ #region //asignacion de direcciones
   if (ableToMove){
  
 	 if (keyboard_check(vk_up)){
@@ -114,3 +103,27 @@ if (!keyboard_check(vk_down||vk_up||vk_right||vk_left))
 
 
 #endregion
+ 
+ #region //vidas y muerte
+ if (global.Vidas<1 && string(sprite_get_name(sprite_index))!="sprExplotion")
+{
+	
+	audio_stop_all();
+	objControl. alarm[1] = room_speed*15;
+	xSpeed=0;
+	ySpeed=0;
+	
+	//sprite del player muriendo
+	ableToMove=false;
+	sprite_index=sprExplotion;
+	audio_play_sound(sndExplo,1,false);
+	image_index =1;
+	
+	
+	
+	with (objBono){
+	instance_destroy(objBono);
+	}
+}
+ 
+ #endregion

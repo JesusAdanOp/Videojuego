@@ -1,25 +1,37 @@
-/// @description Inserte aquí la descripción
+/// @description Interfaz
 // Puede escribir su código en este editor
 
 //Dibujar score, vidas, ready, bono, Gameover
+
+
+vidasY = -100;
+vidasX = 40;
+scoreX = 120
+
+var vy= camera_get_view_y (view_camera[0])
+var vx= camera_get_view_x (view_camera[0])
+vidaPosY = vy
+vidaPosX = vx +433
+scorePosX = vx+10
+spritePosX = vx+400
+
+
+#region//Vidas
+draw_set_font(fntVidas);
+draw_text(vidaPosX,vidaPosY ,": x"+string(global.Vidas))
+draw_sprite_stretched(sprHead,-1,spritePosX,vidaPosY+1, 26,22)
+
+
+
+
+#endregion
 
 #region//Score
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(fntScore);
-draw_text(32,16,"Score: "+string(global.Puntos));
-#endregion
-
-#region//Vidas
-draw_text(room_width/2,16 ,"Vidas: x"+string(global.Vidas))
-
-for (var i=0; i < global.Vidas; i++){
-	
-	draw_sprite_stretched(sprStandby, 2, room_width/2+string_width("Vidas:	")+ (i*32), 16, 32, 32);
-}
-
-
+draw_text(scorePosX,vidaPosY,"Score: "+string(global.Puntos));
 #endregion
 
 #region//Bono
@@ -29,6 +41,15 @@ for (var i=0; i < global.Vidas; i++){
 #endregion
 
 #region//GameOver
+if global.Vidas<1
+{
+	draw_set_color(c_red)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_top)
+	draw_set_font(fntGameOver)
+	draw_text(ObjPlayer.x, ObjPlayer.y-50,"GAME OVER")
+	
+}
 #endregion
 
 #region//Score

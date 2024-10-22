@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"sprSpikes",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":16,
   "bbox_left":0,
   "bbox_right":20,

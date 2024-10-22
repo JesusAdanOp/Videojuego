@@ -56,11 +56,9 @@ if place_snapped(32,32){
 //Daño al player
 if(place_meeting(x,y,ObjPlayer)){
 
-	if(alarm[0]==-1){
-	objSpikes.image_speed=.9;
+	if(!global.iFrame){
 	audio_play_sound(sndHurt,1,false);
 	global.Vidas-=1;
-	alarm[0]=room_speed*2;
 	}
 	
 }
