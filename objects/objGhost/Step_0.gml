@@ -54,7 +54,7 @@ if place_snapped(32,32){
 	
 #region
 //Daño al player
-if(place_meeting(x,y,ObjPlayer)){
+if(place_meeting(x,y,objPlayer)){
 
 	if(!global.iFrame){
 	audio_play_sound(sndHurt,1,false);

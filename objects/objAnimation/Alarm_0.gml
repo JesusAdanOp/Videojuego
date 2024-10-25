@@ -4,8 +4,8 @@
 instance_destroy()
 room_goto(targetRoom)
 audio_play_sound(sndPortal,1,false)
-ObjPlayer.x=targetX
-ObjPlayer.y=targetY
+objPlayer.x=targetX
+objPlayer.y=targetY
 objControl.x=targetX
 objControl.y=targetY
 

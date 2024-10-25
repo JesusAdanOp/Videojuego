@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrMacro",
+  "%Name":"scrInteract",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrMacro",
+  "name":"scrInteract",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

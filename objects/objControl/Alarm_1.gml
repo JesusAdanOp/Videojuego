@@ -5,10 +5,10 @@ alarm[1] = ((1*room_speed)/6);
 
 if global.iFrame
 {
-	ObjPlayer.visible = !ObjPlayer.visible
+	objPlayer.visible = !objPlayer.visible
 }
 else
 {
-	ObjPlayer.visible = true
+	objPlayer.visible = true
 }
  

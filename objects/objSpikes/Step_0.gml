@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(place_meeting(x,y, ObjPlayer)){
+if(place_meeting(x,y, objPlayer)){
 
 	if(!global.iFrame && image_index=0){
 	image_index=1;

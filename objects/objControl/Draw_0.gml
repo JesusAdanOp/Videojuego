@@ -47,10 +47,11 @@ if global.Vidas<1
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_top)
 	draw_set_font(fntGameOver)
-	draw_text(ObjPlayer.x, ObjPlayer.y-50,"GAME OVER")
+	draw_text(objPlayer.x, objPlayer.y-50,"GAME OVER")
 	
 }
 #endregion
 
-#region//Score
+
+
 #endregion
