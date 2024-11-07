@@ -19,7 +19,7 @@ var text="",
 
 
 switch(op){
-	case 0: text="Texto 0"
+	case 0: text="Este camino lleva a la entrada del bosque!\nSe recomienda volver a la aldea\npor su seguridad"
 			txtScaleX =1
 			txtScaleY =1
 			break;

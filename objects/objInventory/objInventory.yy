@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objInteract",
-  "eventList":[],
+  "%Name":"objInventory",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":16,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objInteract",
+  "name":"objInventory",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprInteracts",
-    "path":"sprites/sprInteracts/sprInteracts.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -2,6 +2,7 @@
 // Puede escribir su código en este editor
 
 //intro
+#region  cosas
 audio_play_sound(sndIntro,1,false);
 
 audio_play_sound(sndMusic,2,false);
@@ -20,3 +21,14 @@ optInteract = 0;
 
 alarm[0] = room_speed * 1;
 alarm[1] = room_speed * 1;
+
+#endregion
+
+//Musica por room
+#region
+global.sndplay = false;
+rm0=rmMain;
+rm1=rm2;
+#endregion
+
+

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objInteract",
+  "%Name":"objShowInteract",
   "eventList":[],
   "managed":true,
-  "name":"objInteract",
+  "name":"objShowInteract",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprInteracts",
-    "path":"sprites/sprInteracts/sprInteracts.yy",
+    "name":"sprTextBox",
+    "path":"sprites/sprTextBox/sprTextBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

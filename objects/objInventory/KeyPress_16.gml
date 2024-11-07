@@ -1,4 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-global.show = false;
+var item = global.items[ITEM_BOTAS]
+show_message(item)
