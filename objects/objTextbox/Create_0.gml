@@ -1,4 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-global.show = false;
+show = false;
+txt = "";
+sX = 1;
+sY = 1;

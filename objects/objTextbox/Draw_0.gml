@@ -1,4 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if global.show
-	scrInteract(0)
+if show
+	scrInteract(self.txt, self.sX, self.sY)

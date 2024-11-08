@@ -1,6 +1,6 @@
 // Los recursos de Script han cambiado para la v2.3.0 Consulta
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
-function scrInteract(op){
+function scrInteract(txt,sX, sY){
 	show_debug_message("scrInteract")
 var vy= camera_get_view_y (view_camera[0]),
 	vx= camera_get_view_x (view_camera[0]),
@@ -13,11 +13,16 @@ var sqY=vy+vh/1.5,
 var txtX=vx+20,
 	txtY=sqY+20;
 	
-var text="",
-	txtScaleX =1,
-	txtScaleY =1
+var text=txt,
+	txtScaleX =sX,
+	txtScaleY =sY
+	
+	
+draw_sprite_stretched(sprCuadro,-1,sqX,sqY,vw,vh/3)
 
+draw_text_transformed(txtX,txtY,text,txtScaleX,txtScaleY,0)
 
+/*
 switch(op){
 	case 0: text="Este camino lleva a la entrada del bosque!\nSe recomienda volver a la aldea\npor su seguridad"
 			txtScaleX =1
@@ -46,8 +51,8 @@ switch(op){
 	
 	
 }
-draw_sprite_stretched(sprCuadro,-1,sqX,sqY,vw,vh/3)
-draw_text_transformed(txtX,txtY,text,txtScaleX,txtScaleY,0)
+*/
+
 
 }
 
