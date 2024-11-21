@@ -12,7 +12,7 @@
 	 
 	 case rm1:
 	 if(!global.sndplay){
-		 audio_play_sound(sndIntro,1,1)
+		 audio_play_sound(sndRm2,1,1)
 		 global.sndplay=true;
 	 }
 	 break;

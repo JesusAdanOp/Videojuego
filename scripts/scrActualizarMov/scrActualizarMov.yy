@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script8",
+  "%Name":"scrActualizarMov",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script8",
+  "name":"scrActualizarMov",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"NPCs",
+    "path":"folders/Scripts/NPCs.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

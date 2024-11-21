@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrCreateSprite",
+  "%Name":"scrCreateSpr",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrCreateSprite",
+  "name":"scrCreateSpr",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"NPCs",
+    "path":"folders/Scripts/NPCs.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

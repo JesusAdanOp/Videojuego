@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrFaceTo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrFaceTo",
+  "parent":{
+    "name":"NPCs",
+    "path":"folders/Scripts/NPCs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

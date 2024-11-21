@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprStandby",
-    "path":"sprites/sprStandby/sprStandby.yy",
+    "name":"sprPlayerStandD",
+    "path":"sprites/sprPlayerStandD/sprPlayerStandD.yy",
   },
   "spriteMaskId":null,
   "visible":true,

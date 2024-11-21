@@ -51,12 +51,12 @@ if (keyboard_check(vk_up)) {
  }
  
  #region //variables movment
- sprStand = sprStandby;
+ sprStand = sprPlayerStandD;
 
- sprUp = sprWalkingUp;
- sprDown = sprWalkingDown;
- sprRight = sprWalkingRight;
- sprLeft = sprWalkingLeft;
+ sprUp = sprPlayerWalkU;
+ sprDown = sprPlayerWalkD;
+ sprRight = sprPlayerWalkR;
+ sprLeft = sprPlayerWalkL;
  
  lastAnimation = 0;
  
@@ -89,9 +89,9 @@ if (!keyboard_check(vk_down||vk_up||vk_right||vk_left))
 {
 	
 	 switch (lastAnimation){
-		case 1: sprite_index = sprStandByUp; break;
-		case 2: sprite_index = sprStandByRight; break;
-		case 3: sprite_index = sprStandByLeft; break;
+		case 1: sprite_index = sprPlayerStandU; break;
+		case 2: sprite_index = splPlayerStandR; break;
+		case 3: sprite_index = sprPlayerStandL; break;
 		
 		
 		default: sprite_index = sprStand; break;
