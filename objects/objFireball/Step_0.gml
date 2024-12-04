@@ -3,16 +3,13 @@
 switch(dir){
 	case "r": x+=spd break;
 	
-	case "l": x-=sp break;
+	case "l": x-=spd break;
 	
-	case "u": x+=sp break;
+	case "u": y-=spd break;
 	
-	case "d":  x-=spbreak;
+	case "d":  y+=spd break;
 	
 	default: break;
 	
 }
 
-if (place_meeting(x, y, objWall)|| (place_meeting(x, y, objWall))){
-	
-}
