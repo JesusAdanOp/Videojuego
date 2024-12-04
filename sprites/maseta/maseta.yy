@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"mapa",
-    "path":"folders/Sprites/mapa.yy",
+    "name":"ladrillos",
+    "path":"folders/Sprites/mapa/ladrillos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
