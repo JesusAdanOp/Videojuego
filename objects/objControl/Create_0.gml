@@ -42,3 +42,5 @@ global.n2 = false
 global.n3 = false
 #endregion
 
+
+global.boots = 1

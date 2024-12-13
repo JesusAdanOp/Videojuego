@@ -46,8 +46,8 @@ if (keyboard_check(vk_up)) {
 #endregion
 
  if (ableToMove){
- x+= xSpeed;
- y+= ySpeed;
+ x+= xSpeed*global.boots;
+ y+= ySpeed*global.boots;
  }
  
  #region //variables movment

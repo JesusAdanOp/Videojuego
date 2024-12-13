@@ -53,6 +53,7 @@
     {"id":{"name":"fntVidas","path":"fonts/fntVidas/fntVidas.yy",},},
     {"id":{"name":"objAnimation","path":"objects/objAnimation/objAnimation.yy",},},
     {"id":{"name":"objBono","path":"objects/objBono/objBono.yy",},},
+    {"id":{"name":"objBoots","path":"objects/objBoots/objBoots.yy",},},
     {"id":{"name":"objCheat","path":"objects/objCheat/objCheat.yy",},},
     {"id":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},},
     {"id":{"name":"objControl","path":"objects/objControl/objControl.yy",},},

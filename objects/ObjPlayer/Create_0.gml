@@ -5,7 +5,7 @@ xSpeed = 0;
 ySpeed = 0;
 ableToMove = true;
 loop=true;
-movSpeed = 4;
+movSpeed = 4 *global.boots;
 
 animName=""
 

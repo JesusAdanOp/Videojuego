@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-if global.Vidas != preVidas
+if global.Vidas < preVidas
 {
 	if !global.Vidas = 0
 	{
@@ -14,11 +14,9 @@ if global.Vidas != preVidas
 	
 	}
 	
-
-	
-	
-	
 }
+
+
 
 
 

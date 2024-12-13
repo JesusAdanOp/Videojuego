@@ -29,6 +29,8 @@ if (keyboard_check_pressed(vk_enter)) {
             }
             // Aquí va el código para iniciar la escena del juego, por ejemplo:
 			objPlayer.visible=true;
+			objPlayer.x=170
+			objPlayer.y=150
              room_goto(rmMain);
             break;
         case 1:
