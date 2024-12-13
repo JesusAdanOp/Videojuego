@@ -1,7 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-targetX=0;
-targetY=0;
-targetRoom=0;
+global.n0 = true
+global.n1 = true
+global.n2 = true
+global.n3 = true
 
-//alarm[0]=room_speed*0;
+instance_destroy(self);

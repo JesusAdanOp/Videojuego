@@ -3,7 +3,7 @@
 
 //Dibujar score, vidas, ready, bono, Gameover
 
-
+if (room!=rmStart){
 vidasY = -100;
 vidasX = 40;
 scoreX = 120
@@ -49,6 +49,8 @@ if global.Vidas<1
 	draw_set_font(fntGameOver)
 	draw_text(objPlayer.x, objPlayer.y-50,"GAME OVER")
 	
+}
+
 }
 #endregion
 

@@ -7,5 +7,6 @@ ableToMove = true;
 loop=true;
 movSpeed = 4;
 
+animName=""
 
 

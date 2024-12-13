@@ -8,6 +8,8 @@ audio_play_sound(sndIntro,1,false);
 audio_play_sound(sndMusic,2,false);
 global.Puntos=0;
 global.Vidas=3;
+global.dificultad=1
+
 global.iFrameTimer=2;
 preVidas = global.Vidas;
 
@@ -16,6 +18,8 @@ global.Bonus=false;
 global.Enemy=false;
 
 global.iFrame = false;
+
+
 
 optInteract = 0;
 
@@ -31,4 +35,10 @@ rm0=rmMain;
 rm1=rm2;
 #endregion
 
+#region
+global.n0 = false
+global.n1 = false
+global.n2 = false
+global.n3 = false
+#endregion
 

@@ -1,4 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-dir=""
-spd=3*global.dificultad
+if global.n0=true
+	self.visible=true;

@@ -9,7 +9,7 @@ objPlayer.y=targetY
 objControl.x=targetX
 objControl.y=targetY
 
-endAnim=true;
+
 
 
 

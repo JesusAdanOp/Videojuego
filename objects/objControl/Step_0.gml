@@ -14,6 +14,10 @@ if global.Vidas != preVidas
 	
 	}
 	
+
+	
+	
+	
 }
 
 

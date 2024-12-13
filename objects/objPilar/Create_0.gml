@@ -1,4 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-dir=""
-spd=3*global.dificultad
+
+n0Act = false
+n1Act = false
+n2Act = false
+n3Act = false
